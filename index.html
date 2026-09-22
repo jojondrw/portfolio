@@ -1,128 +1,122 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Jonathan Andrew Saleh - Data Science Portfolio</title>
-<meta name="description" content="Data Science student at Bina Nusantara University. Four projects, each shipped as a live application: machine learning deployment, semantic search, clustering and front end work.">
-<meta property="og:title" content="Jonathan Andrew Saleh - Data Science Portfolio">
-<meta property="og:description" content="Four projects, each shipped as a live application.">
-<meta property="og:type" content="website">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<meta content="Data Science student at Bina Nusantara University. Four projects, each shipped as a live application: machine learning deployment, semantic search, clustering and front end work." name="description"/>
+<meta content="Jonathan Andrew Saleh - Data Science Portfolio" property="og:title"/>
+<meta content="Four projects, each shipped as a live application." property="og:description"/>
+<meta content="website" property="og:type"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
 </head>
 <body>
-
 <a class="skip" href="#main">Skip to content</a>
-
 <header class="nav" id="nav">
-  <div class="wrap nav-inner">
-    <a class="nav-name" href="#top">Jonathan Andrew Saleh</a>
-    <nav class="nav-links" aria-label="Sections">
-      <a href="#nba">NBA Roster Lab</a>
-      <a href="#song">Song Search</a>
-      <a href="#credit">Credit Score</a>
-      <a href="#clash">Clash of BaNG</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
+<div class="wrap nav-inner">
+<a class="nav-name" href="#top">Jonathan Andrew Saleh</a>
+<nav aria-label="Sections" class="nav-links">
+<a href="#nba">NBA Roster Lab</a>
+<a href="#song">Song Search</a>
+<a href="#credit">Credit Score</a>
+<a href="#clash">Clash of BaNG</a>
+<a href="#contact">Contact</a>
+</nav>
+</div>
 </header>
-
 <main id="main">
-
-  <!-- ---------------------------------------------------------------- hero -->
-  <section class="hero" id="top">
-    <div class="wrap">
-      <p class="eyebrow">Data Science Student, Bina Nusantara University</p>
-      <h1>Jonathan Andrew Saleh</h1>
-      <p class="lede">
+<!-- ---------------------------------------------------------------- hero -->
+<section class="hero" id="top">
+<div class="wrap">
+<p class="eyebrow">Data Science Student, Bina Nusantara University</p>
+<h1>Jonathan Andrew Saleh</h1>
+<p class="lede">
         Four projects, each one shipped as something a person can open and use,
         not a notebook. Machine learning deployed to AWS, a search engine that
         runs four retrieval methods at once, unsupervised clustering over
         twenty six seasons of NBA data, and an interface built from a design
         system up.
       </p>
-
-      <div class="actions">
-        <a class="btn btn-primary" href="assets/Jonathan_Andrew_Saleh_CV.pdf" target="_blank" rel="noopener">
+<div class="actions">
+<a class="btn btn-primary" href="assets/Jonathan_Andrew_Saleh_CV.pdf" rel="noopener" target="_blank">
           Download CV
         </a>
-        <a class="btn" href="https://github.com/jojondrw" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="https://linkedin.com/in/jonathan-saleh-6662b2298" target="_blank" rel="noopener">LinkedIn</a>
-        <a class="btn" href="mailto:jonathansaleh2425@gmail.com">Email</a>
-      </div>
-
-      <ul class="facts">
-        <li><strong>3.71</strong><span>GPA out of 4.00</span></li>
-        <li><strong>4</strong><span>projects, all deployed</span></li>
-        <li><strong>15th</strong><span>AI Innovation Challenge, COMPFEST 18</span></li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ----------------------------------------------------------------- 01 -->
-  <section class="project" id="nba">
-    <div class="wrap">
-      <div class="p-head">
-        <span class="p-num">01</span>
-        <h2>NBA Roster Lab</h2>
-      </div>
-      <p class="p-summary">
+<a class="btn" href="https://github.com/jojondrw" rel="noopener" target="_blank">GitHub</a>
+<a class="btn" href="https://linkedin.com/in/jonathan-saleh-6662b2298" rel="noopener" target="_blank">LinkedIn</a>
+<a class="btn" href="mailto:jonathansaleh2425@gmail.com">Email</a>
+</div>
+<ul class="facts">
+<li><strong>3.71</strong><span>GPA out of 4.00</span></li>
+<li><strong>4</strong><span>projects, all deployed</span></li>
+<li><strong>15th</strong><span>AI Innovation Challenge, COMPFEST 18</span></li>
+</ul>
+</div>
+</section>
+<!-- ----------------------------------------------------------------- 01 -->
+<section class="project" id="nba">
+<div class="wrap">
+<div class="p-head">
+<span class="p-num">01</span>
+<h2>NBA Roster Lab</h2>
+</div>
+<p class="p-summary">
         Unsupervised machine learning that groups every NBA player from 2000 to
         2026 into seven playing style archetypes, then uses those archetypes to
         find similar players and check how well a team is built.
       </p>
-      <ul class="pills">
-        <li class="solid">Self-initiated</li>
-        <li>Individual project</li>
-        <li>Python</li>
-        <li>scikit-learn</li>
-        <li>HTML/CSS/JS</li>
-      </ul>
-      <hr class="rule">
-
-      <div class="shots">
-        <figure>
-          <img src="assets/img/nba-1.jpg" alt="Player Explorer screen showing Anthony Edwards with his archetype and a row of statistical twins" loading="lazy" width="1400" height="763">
-          <figcaption>Player Explorer. Every player gets an archetype and a list of statistical twins ranked by similarity. The front end is custom HTML, CSS and JS.</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/nba-2.jpg" alt="League Trends screen showing each archetype's share of the league from 2000 to 2026" loading="lazy" width="1400" height="761">
-          <figcaption>League Trends. The 3-Point Specialist share tripled between 2000 and its peak. The Energy Big fell from about 26% to under 5%.</figcaption>
-        </figure>
-      </div>
-
-      <div class="cols">
-        <div>
-          <h3 class="label">Why I built it</h3>
-          <p>
+<ul class="pills">
+<li class="solid">Self-initiated</li>
+<li>Individual project</li>
+<li>Python</li>
+<li>scikit-learn</li>
+<li>HTML/CSS/JS</li>
+</ul>
+<hr class="rule"/>
+<div class="shots">
+<figure>
+<img alt="Player Explorer screen showing Anthony Edwards with his archetype and a row of statistical twins" height="763" loading="lazy" src="assets/img/nba-1.jpg" width="1400"/>
+<figcaption>Player Explorer. Every player gets an archetype and a list of statistical twins ranked by similarity. The front end is custom HTML, CSS and JS.</figcaption>
+</figure>
+<figure>
+<img alt="League Trends screen showing each archetype's share of the league from 2000 to 2026" height="761" loading="lazy" src="assets/img/nba-2.jpg" width="1400"/>
+<figcaption>League Trends. The 3-Point Specialist share tripled between 2000 and its peak. The Energy Big fell from about 26% to under 5%.</figcaption>
+</figure>
+</div>
+<div class="cols">
+<div><h3 class="label">Why I built it</h3><p>
             I have a passion for basketball. As a kid I played a lot of NBA 2K
             and I loved building my own roster. Watching the real NBA over the
             years, I noticed the game has changed a lot. The five traditional
             positions do not really describe how players play anymore. So I
             decided to let the data decide the roles instead.
-          </p>
-
-</div>
-        <div>
-          <h3 class="label">What I built</h3>
-          <p>
+          </p></div>
+<div><h3 class="label">What I built</h3><p>
             K-means clustering on about 9,900 player seasons from 2000 to 2026,
             using eight rate based style features. It gave me seven archetypes:
             Two-Way Wing, 3-Point Specialist, Pass-First Guard, Primary Creator,
             Rim-Protecting Big, Scoring Big and Energy Big.
-          </p>
-          <p>
+          </p><p>
             On top of that I built four tools. Player Explorer finds statistical
             twins, Team Doctor compares a roster against teams that won 55 games
             or more in the same era, and Roster Builder and League Trends do the
             rest. It runs as a Streamlit app and also as a custom web front end
             coded into HTML, CSS and JS.
-          </p>
-          <h3 class="label">What I learned</h3>
-          <p>
+          </p></div>
+</div>
+<div class="impact">
+<h3>Impact</h3>
+<p>The decision that was crucial for this project was leaving Win
+            Shares out of the clustering features. Had I left it in, the
+            clusters would have grouped players by how good they are, not by
+            playing style. The goal is to help GMs find cheaper alternatives to
+            the players they want, like "a poor man's LeBron". NBA teams work
+            under a salary cap, so they cannot spend everything on stars and
+            still build a balanced roster.</p>
+</div><div class="learned"><h3 class="label">What I learned</h3><p>
             K-means puts seven center points, measures which one each player is
             closest to using Euclidean distance, then moves each center to the
             average of the players assigned to it and repeats until the centers
@@ -130,8 +124,7 @@
             features first. I also used rate stats instead of counting stats,
             because every player plays a different amount of minutes and rate
             stats make a bench player comparable to a starter.
-          </p>
-          <p>
+          </p><p>
             Picking k was harder than I expected. The elbow curve had no sharp
             bend, and the silhouette score was actually highest at k=2. But k=2
             only splits the league into big men and small men, which is useless
@@ -139,91 +132,72 @@
             continuum and not a set of separate groups. So I took seven out of
             the 6 to 8 range that was left, then checked it by hand. Rim
             protectors landed with Gobert and creators landed with Luka.
-          </p>
-        </div>
-      </div>
-
-      <div class="impact">
-        <h3>Impact</h3>
-        <p>The decision that was crucial for this project was leaving Win
-            Shares out of the clustering features. Had I left it in, the
-            clusters would have grouped players by how good they are, not by
-            playing style. The goal is to help GMs find cheaper alternatives to
-            the players they want, like "a poor man's LeBron". NBA teams work
-            under a salary cap, so they cannot spend everything on stars and
-            still build a balanced roster.</p>
-      </div>
-
-      <div class="p-links">
-        <div><span>Code</span><a href="https://github.com/jojondrw/nba-roster-lab" target="_blank" rel="noopener">github.com/jojondrw/nba-roster-lab</a></div>
-        <div><span>Live</span><a href="https://nba-roster-lab.vercel.app" target="_blank" rel="noopener">nba-roster-lab.vercel.app</a></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ----------------------------------------------------------------- 02 -->
-  <section class="project" id="song">
-    <div class="wrap">
-      <div class="p-head">
-        <span class="p-num">02</span>
-        <h2>Song Search</h2>
-      </div>
-      <p class="p-summary">
+          </p></div>
+<div class="p-links">
+<div><span>Code</span><a href="https://github.com/jojondrw/nba-roster-lab" rel="noopener" target="_blank">github.com/jojondrw/nba-roster-lab</a></div>
+<div><span>Live</span><a href="https://nba-roster-lab.vercel.app" rel="noopener" target="_blank">nba-roster-lab.vercel.app</a></div>
+</div>
+</div>
+</section>
+<!-- ----------------------------------------------------------------- 02 -->
+<section class="project" id="song">
+<div class="wrap">
+<div class="p-head">
+<span class="p-num">02</span>
+<h2>Song Search</h2>
+</div>
+<p class="p-summary">
         A search engine over 57,650 songs that runs four search methods on every
         query from one search bar, then groups the results by how each one was
         found.
       </p>
-      <ul class="pills">
-        <li class="solid">Self-initiated</li>
-        <li>Individual project</li>
-        <li>Python</li>
-        <li>Sentence embeddings</li>
-        <li>TF-IDF</li>
-      </ul>
-      <hr class="rule">
-
-      <div class="shots">
-        <figure>
-          <img src="assets/img/song-1.jpg" alt="Song Search results grouped into title, lyrics and vibe sections" loading="lazy" width="1400" height="781">
-          <figcaption>One query, three sections filled. It is found as a title, as a line inside other songs' lyrics, and by meaning.</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/song-2.jpg" alt="Song Search results for an artist name, grouped into artist, lyrics and vibe sections" loading="lazy" width="1400" height="769">
-          <figcaption>The same box handles an artist name. Empty sections stay hidden, so you never have to say what you are searching for.</figcaption>
-        </figure>
-      </div>
-
-      <div class="cols">
-        <div>
-          <h3 class="label">Why I built it</h3>
-          <p>
+<ul class="pills">
+<li class="solid">Self-initiated</li>
+<li>Individual project</li>
+<li>Python</li>
+<li>Sentence embeddings</li>
+<li>TF-IDF</li>
+</ul>
+<hr class="rule"/>
+<div class="shots">
+<figure>
+<img alt="Song Search results grouped into title, lyrics and vibe sections" height="781" loading="lazy" src="assets/img/song-1.jpg" width="1400"/>
+<figcaption>One query, three sections filled. It is found as a title, as a line inside other songs' lyrics, and by meaning.</figcaption>
+</figure>
+<figure>
+<img alt="Song Search results for an artist name, grouped into artist, lyrics and vibe sections" height="769" loading="lazy" src="assets/img/song-2.jpg" width="1400"/>
+<figcaption>The same box handles an artist name. Empty sections stay hidden, so you never have to say what you are searching for.</figcaption>
+</figure>
+</div>
+<div class="cols">
+<div><h3 class="label">Why I built it</h3><p>
             I have always been intrigued by how Spotify's search bar works. When
             you search a song it does not just show the song with that exact
             title. The result can also come from a line in the lyrics, or from
             the artist, or from something closer to a mood. I wanted to see how
             much of that I could rebuild using only titles, artist names and
             lyrics.
-          </p>
-          <h3 class="label">What I built</h3>
-          <table class="methods">
-            <thead><tr><th>Section</th><th>Method</th></tr></thead>
-            <tbody>
-              <tr><td>Title</td><td>Substring, with fuzzy fallback for typos</td></tr>
-              <tr><td>Artist</td><td>Fuzzy matching across 643 names</td></tr>
-              <tr><td>Lyrics</td><td>Phrase match first, then TF-IDF ranking</td></tr>
-              <tr><td>Vibe</td><td>Sentence embeddings, cosine similarity</td></tr>
-            </tbody>
-          </table>
-          <p>
+          </p></div>
+<div><h3 class="label">What I built</h3><table class="methods">
+<thead><tr><th>Section</th><th>Method</th></tr></thead>
+<tbody>
+<tr><td>Title</td><td>Substring, with fuzzy fallback for typos</td></tr>
+<tr><td>Artist</td><td>Fuzzy matching across 643 names</td></tr>
+<tr><td>Lyrics</td><td>Phrase match first, then TF-IDF ranking</td></tr>
+<tr><td>Vibe</td><td>Sentence embeddings, cosine similarity</td></tr>
+</tbody>
+</table><p>
             Each method fits a different way people search. Encoding all 57,650
             songs is the only slow part, so it runs once and gets saved to disk.
             Everything else is cheap enough to run on every query.
-          </p>
-        </div>
-        <div>
-
-<h3 class="label">What I learned</h3>
-          <p>
+          </p></div>
+</div>
+<div class="impact">
+<h3>Impact</h3>
+<p>Instead of making the user pick a search mode, I run all four methods
+            on every query and hide the sections that return nothing, so the user
+            doesn't have to decide which category their search belongs to.</p>
+</div><div class="learned"><h3 class="label">What I learned</h3><p>
             TF-IDF gives a high weight to words that show up a lot in one song
             but rarely in the other 57,000, and that is what decides which lyric
             results come first. Fuzzy matching counts how many letters you have
@@ -235,79 +209,59 @@
             songs that never use those words. There is no single best search
             method here. Each one is good at a different thing, which is why I
             used four.
-          </p>
-        </div>
-      </div>
-
-      <div class="impact">
-        <h3>Impact</h3>
-        <p>Instead of making the user pick a search mode, I run all four methods
-            on every query and hide the sections that return nothing, so the user
-            doesn't have to decide which category their search belongs to.</p>
-      </div>
-
-      <div class="p-links">
-        <div><span>Code</span><a href="https://github.com/jojondrw/song-search" target="_blank" rel="noopener">github.com/jojondrw/song-search</a></div>
-        <div><span>Live</span><a href="https://song-search-mwdg6hdpvx8tubdhup5jjq.streamlit.app" target="_blank" rel="noopener">song-search-mwdg6hdpvx8tubdhup5jjq.streamlit.app</a></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ----------------------------------------------------------------- 03 -->
-  <section class="project" id="credit">
-    <div class="wrap">
-      <div class="p-head">
-        <span class="p-num">03</span>
-        <h2>Credit Score Classification</h2>
-      </div>
-      <p class="p-summary">
+          </p></div>
+<div class="p-links">
+<div><span>Code</span><a href="https://github.com/jojondrw/song-search" rel="noopener" target="_blank">github.com/jojondrw/song-search</a></div>
+<div><span>Live</span><a href="https://song-search-mwdg6hdpvx8tubdhup5jjq.streamlit.app" rel="noopener" target="_blank">song-search-mwdg6hdpvx8tubdhup5jjq.streamlit.app</a></div>
+</div>
+</div>
+</section>
+<!-- ----------------------------------------------------------------- 03 -->
+<section class="project" id="credit">
+<div class="wrap">
+<div class="p-head">
+<span class="p-num">03</span>
+<h2>Credit Score Classification</h2>
+</div>
+<p class="p-summary">
         An end to end machine learning pipeline that sorts customers into three
         credit score classes. I built and deployed it three ways, locally, on
         Streamlit Community Cloud and on AWS, to see what actually changes when
         a model leaves my laptop.
       </p>
-      <ul class="pills">
-        <li class="solid">Class assignment</li>
-        <li>Individual project</li>
-        <li>Python</li>
-        <li>scikit-learn</li>
-        <li>MLflow</li>
-        <li>AWS</li>
-      </ul>
-      <hr class="rule">
-
-      <div class="shots">
-        <figure>
-          <img src="assets/img/credit-1.jpg" alt="Terminal output of the training pipeline comparing three models and printing the classification report" loading="lazy" width="1400" height="534">
-          <figcaption>One command runs the whole pipeline. Ingestion, cleaning, three models compared, tuning, and the final classification report.</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/credit-2.jpg" alt="The deployed Streamlit prediction app showing a credit score result and class probabilities" loading="lazy" width="1400" height="663">
-          <figcaption>The same model on AWS. A SageMaker real time endpoint, called from a Streamlit app running on EC2.</figcaption>
-        </figure>
-      </div>
-
-      <div class="cols">
-        <div>
-          <h3 class="label">What I built</h3>
-          <p>
+<ul class="pills">
+<li class="solid">Class assignment</li>
+<li>Individual project</li>
+<li>Python</li>
+<li>scikit-learn</li>
+<li>MLflow</li>
+<li>AWS</li>
+</ul>
+<hr class="rule"/>
+<div class="shots">
+<figure>
+<img alt="Terminal output of the training pipeline comparing three models and printing the classification report" height="534" loading="lazy" src="assets/img/credit-1.jpg" width="1400"/>
+<figcaption>One command runs the whole pipeline. Ingestion, cleaning, three models compared, tuning, and the final classification report.</figcaption>
+</figure>
+<figure>
+<img alt="The deployed Streamlit prediction app showing a credit score result and class probabilities" height="663" loading="lazy" src="assets/img/credit-2.jpg" width="1400"/>
+<figcaption>The same model on AWS. A SageMaker real time endpoint, called from a Streamlit app running on EC2.</figcaption>
+</figure>
+</div>
+<div class="cols">
+<div><h3 class="label">What I built</h3><p>
             The dataset is messy on purpose. About 100,000 rows where numbers are
             stored as text, junk tokens instead of missing values, some ages over
             100, and one column that packs several loan types into a single cell.
             I cleaned it without dropping rows. Impossible values became missing,
             outliers got capped at realistic limits, and the loan column was split
             into eight binary features.
-          </p>
-          <p>
+          </p><p>
             I compared Random Forest, Hist Gradient Boosting and Extra Trees,
             tuned the best one with grid search, and tracked every run in MLflow.
             The tuned Random Forest got a weighted F1 of 0.73.
-          </p>
-
-</div>
-        <div>
-          <h3 class="label">How I tested it</h3>
-          <p>
+          </p></div>
+<div><h3 class="label">How I tested it</h3><p>
             Instead of only reporting a score, I made three input scenarios to
             push the model into each class. Zero outstanding debt and a good
             credit mix for Good, the form defaults for Standard, and a very high
@@ -316,9 +270,14 @@
             to change the prediction. That showed me something a single accuracy
             number would have hidden, which is how the model behaves at the edge
             of its input range and not just on average.
-          </p>
-          <h3 class="label">What I learned</h3>
-          <p>
+          </p></div>
+</div>
+<div class="impact">
+<h3>Impact</h3>
+<p>I chose weighted F1 instead of accuracy as the main metric, because
+            the three classes are imbalanced and accuracy would have hidden how
+            badly the model handled the smallest class.</p>
+</div><div class="learned"><h3 class="label">What I learned</h3><p>
             Because of this project I now understand that deploying a model can
             be done both locally and through the cloud, and both have their
             advantages. Local is much quicker to set up and the app launches
@@ -326,77 +285,57 @@
             more effort, like IAM roles and security groups and a real bill, but
             it scales and the endpoint keeps running even when the server in
             front of it restarts.
-          </p>
-        </div>
-      </div>
-
-      <div class="impact">
-        <h3>Impact</h3>
-        <p>I chose weighted F1 instead of accuracy as the main metric, because
-            the three classes are imbalanced and accuracy would have hidden how
-            badly the model handled the smallest class.</p>
-      </div>
-
-      <div class="p-links">
-        <div><span>Code</span><a href="https://github.com/jojondrw/credit-score-ml-deployment" target="_blank" rel="noopener">github.com/jojondrw/credit-score-ml-deployment</a></div>
-        <div><span>Live</span><a href="https://credit-score-ml-deployment-6uuvtwcot5ov2cycvvf4uh.streamlit.app" target="_blank" rel="noopener">credit-score-ml-deployment-6uuvtwcot5ov2cycvvf4uh.streamlit.app</a></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ----------------------------------------------------------------- 04 -->
-  <section class="project" id="clash">
-    <div class="wrap">
-      <div class="p-head">
-        <span class="p-num">04</span>
-        <h2>Clash of BaNG</h2>
-      </div>
-      <p class="p-summary">
+          </p></div>
+<div class="p-links">
+<div><span>Code</span><a href="https://github.com/jojondrw/credit-score-ml-deployment" rel="noopener" target="_blank">github.com/jojondrw/credit-score-ml-deployment</a></div>
+<div><span>Live</span><a href="https://credit-score-ml-deployment-6uuvtwcot5ov2cycvvf4uh.streamlit.app" rel="noopener" target="_blank">credit-score-ml-deployment-6uuvtwcot5ov2cycvvf4uh.streamlit.app</a></div>
+</div>
+</div>
+</section>
+<!-- ----------------------------------------------------------------- 04 -->
+<section class="project" id="clash">
+<div class="wrap">
+<div class="p-head">
+<span class="p-num">04</span>
+<h2>Clash of BaNG</h2>
+</div>
+<p class="p-summary">
         A five page dark fantasy community site. I designed it in Figma first,
         then coded it into HTML, CSS and JS with no framework and no tables for
         layout.
       </p>
-      <ul class="pills">
-        <li class="solid">Class assignment</li>
-        <li>Individual project</li>
-        <li>Figma</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-      </ul>
-      <hr class="rule">
-
-      <div class="shots">
-        <figure>
-          <img src="assets/img/clash-1.jpg" alt="Clash of BaNG home page with the hero carousel and featured troops" loading="lazy" width="1400" height="784">
-          <figcaption>Home. The carousel moves every four seconds and also responds to arrows, dots and swipe.</figcaption>
-        </figure>
-        <figure>
-          <img src="assets/img/clash-2.jpg" alt="Clash of BaNG about page with the origin story and a milestones timeline" loading="lazy" width="1400" height="729">
-          <figcaption>About. One type scale and one color system across all five pages, set in Figma before any of it was coded.</figcaption>
-        </figure>
-      </div>
-
-      <div class="cols">
-        <div>
-          <h3 class="label">What I built</h3>
-          <p>
+<ul class="pills">
+<li class="solid">Class assignment</li>
+<li>Individual project</li>
+<li>Figma</li>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+<hr class="rule"/>
+<div class="shots">
+<figure>
+<img alt="Clash of BaNG home page with the hero carousel and featured troops" height="784" loading="lazy" src="assets/img/clash-1.jpg" width="1400"/>
+<figcaption>Home. The carousel moves every four seconds and also responds to arrows, dots and swipe.</figcaption>
+</figure>
+<figure>
+<img alt="Clash of BaNG about page with the origin story and a milestones timeline" height="729" loading="lazy" src="assets/img/clash-2.jpg" width="1400"/>
+<figcaption>About. One type scale and one color system across all five pages, set in Figma before any of it was coded.</figcaption>
+</figure>
+</div>
+<div class="cols">
+<div><h3 class="label">What I built</h3><p>
             Five pages: home, gallery, troops, about and register. Each one has
             its own header, navigation, content and footer. The layout is pure
             CSS box positioning with Flexbox and Grid, all the styling sits in
             external stylesheets, and I did not use tables for layout.
-          </p>
-          <p>
+          </p><p>
             The interactions were the fun part. A lightbox modal for the gallery,
             cards that show troop stats when you hover or tap, a register form
             that checks every field and tells you what is wrong, and a nav bar
             that turns into a hamburger menu on small screens.
-          </p>
-
-</div>
-        <div>
-          <h3 class="label">Designing before building</h3>
-          <p>
+          </p></div>
+<div><h3 class="label">Designing before building</h3><p>
             The brief asked for a Figma prototype first, so I built the whole
             design system there. Color styles, text styles, effects, reusable
             components and interactive variants, plus a clickable flow between
@@ -404,59 +343,50 @@
             the prototype on purpose, but kept the same visual language. That
             turned out to be a better test of the design system than copying the
             prototype would have been.
-          </p>
-          <h3 class="label">What I learned</h3>
-          <p>
+          </p></div>
+</div>
+<div class="impact">
+<h3>Impact</h3>
+<p>I designed all five pages in Figma first, using reusable components
+            and variants, before writing any code. That is why the colors, type
+            and spacing stayed consistent across every page instead of drifting
+            while I built them.</p>
+</div><div class="learned"><h3 class="label">What I learned</h3><p>
             This project taught me that interface work is its own skill, and not
             something you add at the end to make things look nice. Deciding the
             type scale and the color system before coding removed a lot of small
             decisions later. It is also the reason the NBA project in this
             portfolio has its own custom front end instead of only a Streamlit
             app.
-          </p>
-        </div>
-      </div>
-
-      <div class="impact">
-        <h3>Impact</h3>
-        <p>I designed all five pages in Figma first, using reusable components
-            and variants, before writing any code. That is why the colors, type
-            and spacing stayed consistent across every page instead of drifting
-            while I built them.</p>
-      </div>
-
-      <div class="p-links">
-        <div><span>Code</span><a href="https://github.com/jojondrw/clash-of-bang" target="_blank" rel="noopener">github.com/jojondrw/clash-of-bang</a></div>
-        <div><span>Live</span><a href="https://clash-of-bang-one.vercel.app" target="_blank" rel="noopener">clash-of-bang-one.vercel.app</a></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ------------------------------------------------------------- contact -->
-  <section class="contact" id="contact">
-    <div class="wrap">
-      <h2>Get in touch</h2>
-      <p class="lede">
+          </p></div>
+<div class="p-links">
+<div><span>Code</span><a href="https://github.com/jojondrw/clash-of-bang" rel="noopener" target="_blank">github.com/jojondrw/clash-of-bang</a></div>
+<div><span>Live</span><a href="https://clash-of-bang-one.vercel.app" rel="noopener" target="_blank">clash-of-bang-one.vercel.app</a></div>
+</div>
+</div>
+</section>
+<!-- ------------------------------------------------------------- contact -->
+<section class="contact" id="contact">
+<div class="wrap">
+<h2>Get in touch</h2>
+<p class="lede">
         I am looking for a data science internship. The fastest way to reach me
         is email, and my CV has the full detail.
       </p>
-      <div class="actions">
-        <a class="btn btn-primary" href="mailto:jonathansaleh2425@gmail.com">jonathansaleh2425@gmail.com</a>
-        <a class="btn" href="assets/Jonathan_Andrew_Saleh_CV.pdf" target="_blank" rel="noopener">Download CV</a>
-        <a class="btn" href="https://github.com/jojondrw" target="_blank" rel="noopener">GitHub</a>
-        <a class="btn" href="https://linkedin.com/in/jonathan-saleh-6662b2298" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
+<div class="actions">
+<a class="btn btn-primary" href="mailto:jonathansaleh2425@gmail.com">jonathansaleh2425@gmail.com</a>
+<a class="btn" href="assets/Jonathan_Andrew_Saleh_CV.pdf" rel="noopener" target="_blank">Download CV</a>
+<a class="btn" href="https://github.com/jojondrw" rel="noopener" target="_blank">GitHub</a>
+<a class="btn" href="https://linkedin.com/in/jonathan-saleh-6662b2298" rel="noopener" target="_blank">LinkedIn</a>
+</div>
+</div>
+</section>
 </main>
-
 <footer class="foot">
-  <div class="wrap">
-    <p>Jonathan Andrew Saleh &middot; Data Science, Bina Nusantara University &middot; Jakarta, Indonesia</p>
-  </div>
+<div class="wrap">
+<p>Jonathan Andrew Saleh · Data Science, Bina Nusantara University · Jakarta, Indonesia</p>
+</div>
 </footer>
-
 <script src="script.js"></script>
 </body>
 </html>
