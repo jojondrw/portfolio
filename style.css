@@ -1,16 +1,18 @@
 /* Jonathan Andrew Saleh - portfolio
-   Palette and layout taken from the PDF portfolio.
+   Layout taken from the PDF portfolio, palette taken from the LinkedIn banner.
    Plain CSS, no build step. Edit anything here and redeploy. */
 
 :root {
   --bg:      #ffffff;
-  --ink:     #16171c;   /* titles, dark pill */
-  --body:    #3a3f4a;   /* paragraph text */
-  --muted:   #868e9c;   /* section labels, captions */
-  --line:    #e5e7eb;   /* hairlines and borders */
-  --chip:    #f1f4f6;   /* light pill background */
-  --accent:  #c2402e;   /* the red */
-  --accent-bg: #faf6f5; /* impact callout background */
+  --grey:    #dfe4e7;   /* banner grey, same as the photo backdrop */
+  --ink:     #1f344c;   /* titles, dark pill, shirt navy */
+  --deep:    #141f31;   /* hover on the dark pill */
+  --body:    #3b4a5c;   /* paragraph text */
+  --muted:   #6a7c90;   /* section labels, captions */
+  --line:    #dfe4e7;   /* hairlines and borders */
+  --chip:    #eef1f4;   /* light pill background */
+  --accent:  #2a4560;   /* shirt highlight, the stripe in the banner */
+  --accent-bg: #f1f4f6; /* impact callout background */
 
   --sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 
@@ -47,12 +49,12 @@ a { color: var(--accent); }
 /* ------------------------------------------------------------------- nav */
 .nav {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(255, 255, 255, .88);
+  background: rgba(223, 228, 231, .94);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
   transition: border-color .2s ease;
 }
-.nav.scrolled { border-bottom-color: var(--line); }
+.nav.scrolled { border-bottom-color: #cdd5dc; }
 
 .nav-inner {
   display: flex; align-items: center; justify-content: space-between;
@@ -72,12 +74,12 @@ a { color: var(--accent); }
 @media (max-width: 880px) { .nav-links { display: none; } }
 
 /* ------------------------------------------------------------------ hero */
-.hero { padding: 84px 0 64px; }
+.hero { padding: 84px 0 64px; background: var(--grey); }
 
 .eyebrow {
   margin: 0 0 14px;
   font-size: 12px; font-weight: 600; letter-spacing: .1em;
-  text-transform: uppercase; color: var(--accent);
+  text-transform: uppercase; color: var(--muted);
 }
 
 h1 {
@@ -107,7 +109,7 @@ h1 {
 .btn-primary {
   background: var(--ink); border-color: var(--ink); color: #fff; font-weight: 600;
 }
-.btn-primary:hover { background: #000; border-color: #000; color: #fff; }
+.btn-primary:hover { background: var(--deep); border-color: var(--deep); color: #fff; }
 
 /* quick facts */
 .facts {
@@ -116,7 +118,7 @@ h1 {
 }
 .facts li {
   flex: 1 1 200px;
-  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .55);
   border-radius: 10px;
   padding: 17px 19px;
 }
@@ -222,7 +224,7 @@ h3.label {
 .p-links a:hover { color: var(--accent); }
 
 /* --------------------------------------------------------------- contact */
-.contact { padding: 72px 0; border-top: 1px solid var(--line); }
+.contact { padding: 72px 0; background: var(--ink); color: #c5cfda; }
 .contact-head {
   display: flex; align-items: flex-start; gap: 26px;
   margin-bottom: 26px;
@@ -232,18 +234,23 @@ h3.label {
   width: 104px; height: 104px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid var(--line);
+  border: 3px solid var(--accent);
 }
 .contact-head .lede { margin-bottom: 0; }
 
 .contact h2 {
   margin: 0 0 14px;
   font-size: clamp(1.6rem, 3.4vw, 2.1rem);
-  font-weight: 700; letter-spacing: -.02em; color: var(--ink);
+  font-weight: 700; letter-spacing: -.02em; color: #fff;
 }
 
-.foot { padding: 24px 0 40px; border-top: 1px solid var(--line); }
-.foot p { margin: 0; font-size: 12.5px; color: var(--muted); }
+.contact .btn { background: transparent; border-color: rgba(255, 255, 255, .24); color: #eef1f4; }
+.contact .btn:hover { border-color: #eef1f4; }
+.contact .btn-primary { background: var(--grey); border-color: var(--grey); color: var(--ink); }
+.contact .btn-primary:hover { background: #fff; border-color: #fff; }
+
+.foot { padding: 24px 0 40px; background: var(--ink); border-top: 1px solid rgba(255, 255, 255, .1); }
+.foot p { margin: 0; font-size: 12.5px; color: #8a9db2; }
 
 /* ---------------------------------------------------------------- mobile */
 @media (max-width: 760px) {
